@@ -1,0 +1,19 @@
+.my-slider{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.img-gallery{
+    /* width: 50vh; */
+    display: flex;
+    justify-content: center;
+}
+
+.img-gallery img{
+    width: auto;
+    height: 900px;
+}
+.arts-img img{
+    width: 660px;
+    height: 400px;
+}
