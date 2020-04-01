@@ -3,19 +3,20 @@
     dots: true,
     infinite: true,
     speed: 800,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: false,
     adaptiveHeight: true
   });
 
 
-  $('.arts-popup').magnificPopup({delegate: 'a',
+$('.arts-popup').magnificPopup({
+    delegate: 'a',
     type: 'image',
+    mainClass: 'mfp-img-mobile',
     gallery:{
-        enable: true
+        enable: true,
+        navigateByImgClick: true,
     },
-    removalDelay: 300,
-
-    mainClass: 'mfp-fade'
+    removalDelay: 300
 })
