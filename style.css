@@ -21,3 +21,6 @@ body{
     width: 500px;
     height: 300px;
 }
+.slick-dots li button:before{
+    font-size: 15px !important;
+}

@@ -15512,7 +15512,7 @@ function copyJs(){
 
 
 function copyCss(){
-    return src(['*.css','node_modules/magnific-popup/dist/magnific-popup.css'])
+    return src(['*.css','node_modules/magnific-popup/dist/magnific-popup.css', 'node_modules/slick-carousel/slick/slick-theme.css', 'node_modules/slick-carousel/slick/slick.css'])
     .pipe(cssmin())
     .pipe(concat('style.css'))
     .pipe(autoprefixer({cascade:false}))
